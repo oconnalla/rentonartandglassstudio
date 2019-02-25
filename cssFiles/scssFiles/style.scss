@@ -1,0 +1,87 @@
+// body{
+//     width: 100%;
+//     background-color: black;
+//     color: white;
+//     font-family: 'Josefin Sans', sans-serif;
+// }
+
+// .header{
+//     background-image: linear-gradient(260deg, #100432 0%, #492b4f   100%);
+//     font-size: 18px;
+//     border: 1px solid rgba(0, 0, 0, 0.2);
+//     padding-bottom: 10px;
+// }
+// .topnav {
+//     list-style-type: none;
+// }
+// .nav-links,
+// .logo {
+//     text-decoration: none;
+//     color: rgba(255, 255, 255, 0.7);
+// }
+// .topnav li {
+//     text-align: center;
+//     margin: 15px auto;
+// }
+// .logo {
+//     display: inline-block;
+//     font-size: 22px;
+//     margin-top: 10px;
+//     margin-left: 20px;
+// }
+
+// // Nav for desktop view
+// @media screen and (min-width: 768px) {
+//     .header {
+//         display: flex;
+//         justify-content: space-between;
+//         padding-bottom: 0;
+//         height: 70px;
+//         align-items: center;
+//     }
+//     .topnav {
+//         display: flex;
+//         margin-right: 30px;
+//         flex-direction: row;
+//         justify-content: flex-end;
+//     }
+//     .topnav li {
+//         margin: 0;
+//     }
+//     .nav-links {
+//         margin-left: 40px;
+//     }
+//     .logo {
+//         margin-top: 0;
+//     }
+//     .navbar-toggle {
+//         display: none;
+//      }
+//      .logo:hover,
+//      .nav-links:hover {
+//          color: rgba(255, 255, 255, 1);
+//      }
+//     }
+
+
+// .hero_image{
+//     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../websiteRAGSImages/colorfulPurple.jpg");
+//       /* Set a specific height */
+//   height: 50%;
+
+//   /* Position and center the image to scale nicely on all screens */
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   position: relative;
+// }
+
+
+// .verticalLine {
+//     border-left: 6px solid white;
+//     height: 500px;
+// }
+//   .img_shape{
+//       border-radius: 50%;
+//       width: 20%;
+//   }
