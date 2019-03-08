@@ -1,0 +1,68 @@
+body{
+    background-image: url("../websiteRAGSImages/classesHeart.jpg");
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    color:white;
+    /* display:flex; */
+}
+.titletag{
+    display: inline-flex;
+    align-items: baseline;
+    font-family: 'Kanit', sans-serif;
+    padding-top:0px;
+    margin-bottom:0; 
+    font-size: 40px;
+    font-weight: lighter;
+  }
+  #amp{
+      padding:10px;
+  }
+  #passiontag{
+   margin-bottom:0;
+      color:rgb(254, 255, 255);
+      font-family: 'Poiret One', cursive;
+      font-size: 20px;
+      padding:15px;
+  }
+  button{
+    background-color: rgba(135, 32, 199, 0.9); 
+    border: none;
+    color: rgba(255, 255, 255, 0.85);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 16px;
+    margin-top:40px;
+    margin-bottom:5px;
+    font-family: 'Poiret One', cursive;
+  }
+  button:hover {
+    background-color: rgba(73, 41, 83, 0.7);
+    color: rgba(255, 255, 255, 1);
+}
+button a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+    padding: 0;
+}
+#totalcontainer{
+    display:flex;
+    flex-direction: column;
+}
+#logocontainer{
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+ 
+}
+#infoContainer{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: stretch;
+    margin-top:200px;
+}

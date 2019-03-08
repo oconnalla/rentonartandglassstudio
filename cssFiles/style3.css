@@ -1,10 +1,9 @@
- body{
+body{
     width: 100%; 
     /* background-image: linear-gradient(#020007, black, black, hsl(283, 55%, 23%));  */
     background-color: white;  
-    color: black;
-    font-family: 'Kanit', sans-serif;
-    font-weight: lighter;
+    color: rgb(44, 102, 113);
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .header{
@@ -12,7 +11,7 @@
     /* background-image: linear-gradient(to left, black,rgba(67, 187, 223, 0.7));
     font-size: 18px; */
     background-image: linear-gradient(260deg, black, 
-    #0b0321, #0b0321, hsl(283, 55%, 23%));
+    #0b0321, #0b0321, #062b39,rgba(67, 187, 223, 0.7));
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding-bottom: 10px;
 }
@@ -40,7 +39,7 @@
 /* Nav for desktop view */ 
 @media screen and (min-width: 768px) {
     .header {background-image: linear-gradient(260deg, black, 
-        #0b0321, #0b0321, hsl(283, 55%, 23%));
+        #0b0321, #0b0321, #062b39,rgba(67, 187, 223, 0.7));
         border: 1px solid rgba(0, 0, 0, 0.2);
         display: flex;
         justify-content: space-between;
@@ -104,11 +103,11 @@ input[type=search]{
 
 .hero_image{
     padding-top:20px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../websiteRAGSImages/purpleOrb.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../websiteRAGSImages/colorfulPurple.jpg");
       /* Set specific height */
-    height: 400px;
+      height: 400px;
     /* Positions/center the image to scale on all screens */
-    background-position-y: 20%;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -117,18 +116,17 @@ input[type=search]{
 .hero-text {
     text-align: center;
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgba(255, 255, 255, 0.85);
   }
   .titletag{
-    display: inline-flex;
-    align-items: baseline;
-    font-family: 'Kanit', sans-serif;
+      display: inline-flex;
+      align-items: baseline;
+    font-family: 'Open Sans Condensed', sans-serif;
     padding-top:0px;
-    margin-top:0px;
-    margin-bottom:0px; 
+    margin-bottom:0; 
     font-size: 40px;
   }
   #passiontag{
@@ -137,9 +135,9 @@ input[type=search]{
       font-family: 'Poiret One', cursive;
       font-size: 20px;
   }
-  /* #heroOrnament{
+  #heroOrnament{
     width:30%;
-} */
+}
 #sq1{
     background-image:linear-gradient(260deg,rgba(224, 180, 238, 0.2),hsl(283, 55%, 23%),rgba(67, 187, 223, 0.7));
     /* background-image: linear-gradient(rgba(216, 134, 243, 0.2),rgba(28, 37, 85, 0.7));   */
@@ -176,11 +174,11 @@ input[type=search]{
     color: rgba(255, 255, 255, 1);
 } 
 
-/* #diamonds{
+#diamonds{
 width:100%;
 
-} */
-   /* .diamond {
+}
+   .diamond {
     display: inline-flex;
     height: 100px;
     width: 100px;
@@ -191,8 +189,8 @@ width:100%;
     margin-left: 25px;
     transform: rotate(45deg);
     opacity: .8;
-} */
-/* .diamond:hover{
+}
+.diamond:hover{
     background-color: rgba(216, 96, 247, .8)
 } 
 
@@ -207,11 +205,11 @@ width:100%;
     margin-left:12%; 
     font-weight: lighter;
     opacity: .6;
-} */
+}
 
 
 button{
-    background-color: rgba(64, 13, 82, 0.7); 
+    background-color: rgba(216, 134, 243, 0.4); 
     border: none;
     color: rgba(255, 255, 255, 0.85);
     padding: 15px 32px;
@@ -230,6 +228,7 @@ button{
 
 h2{
     font-family: 'Open Sans Condensed', sans-serif;
+    color: rgba(147, 81, 168, 0.7);
 }
 .activities{
     width: 100%;
@@ -238,12 +237,11 @@ h2{
     /* align-items: space-evenly; */
     font-size: 16px;
     text-align: center; 
-    background-color:rgba(195, 183, 201, 0.1);
 }
 .img_shape{
     border-radius: 50%;
     width: 40%;
-    border:2px solid rgba(67, 187, 223, 0.2);
+    border:2px solid rgba(67, 187, 223, 0.5);
 }
 /* .verticalLine {
     display:flex;
@@ -255,12 +253,12 @@ h2{
     width: 100%;
     max-width:33.33%;
     height: 100%;
-    display: flex;
+    display: flex; 
     flex-direction: column;
     align-items: center;
     justify-content: stretch; 
-    border-right: 2px dashed rgba(67, 187, 223, 0.3);
-    /* border-top: 20px solid  rgba(67, 187, 223, 0.7); */
+    border-right: 2px solid rgba(67, 187, 223, 0.7);
+    /* border-top: 40px solid  #062b39;  */
 }
 .activityAlign:last-child{
     border-right:none
@@ -289,9 +287,9 @@ h2{
 }  */
 footer{
    display: flex;
-     /* background-image:linear-gradient(hsl(283, 55%, 23%), rgba(216, 134, 243, 0.2),rgba(67, 187, 223, 0.7));  */
+      /* background-image:linear-gradient(hsl(283, 55%, 23%), rgba(216, 134, 243, 0.2),rgba(67, 187, 223, 0.7));   */
     background-image: linear-gradient(260deg, black, 
-    #0b0321, #0b0321, hsl(283, 55%, 23%));
+    #0b0321, #0b0321, #062b39, rgba(67, 187, 223, 0.7));
     color:rgba(255, 255, 255, 0.803);
     justify-content: center;
     flex-direction: row;
@@ -316,7 +314,7 @@ footer{
     padding-bottom: 5px;
     display: flex;
     background-image: linear-gradient(260deg, black, 
-    #0b0321, #0b0321, hsl(283, 55%, 23%));
+    #0b0321, #0b0321, #062b39,rgba(67, 187, 223, 0.7));
     justify-content: center;
     color:hsl(284, 56%, 28%);
 }
@@ -328,23 +326,13 @@ footer{
 
 
 /* Events Page specialized  CSS */
-#secondaryTitleTag{
-    padding-top:30px;
-}
+
 
 .callToSched{
     margin:0;
     padding:0;
-    color:rgba(67, 187, 223, 0.9);
+    color:rgba(67, 187, 223, 0.8);
     font-family: 'Poiret One', cursive;
-    background-color: rgba(37, 7, 48, 0.5); 
-}
-#callToSchedTop{
-    margin-top:15px;
-    font-size: 30px;
-}
-#callToSchedBottom{
-    color:white;
     font-size: 20px;
 }
 .activitiesHeader{
@@ -352,10 +340,10 @@ footer{
     display: inline-flex;
     justify-content: center;
     font-size: 40px;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Poiret One', cursive;
     margin-top:35px;
-    margin-bottom:20px;
-    color:hsl(284, 56%, 28%);
+    margin-bottom:50px;
+    color:rgba(67, 187, 223, 0.7);
     /* border-top: 30px solid  hsl(268, 56%, 28%);  */
 }
 #eventsActivities{
@@ -365,14 +353,15 @@ footer{
     /* align-content: space-around; */
 } 
 .arrivalpolicymargin{
-    margin-top:60px;
-    margin-bottom:0px;
+    padding-top:60px;
+    margin:0px;
     width:100%;
     display: flex;
     justify-content: center;
     font-family: 'Open Sans Condensed', sans-serif;
-    color:hsl(284, 56%, 28%);
+    color:rgba(67, 187, 223, 0.7);
     font-size: 30px;
+    background-color: white;
 }
 .arrivalPolicy{
     width:100%;
@@ -380,42 +369,18 @@ footer{
     justify-content: center;
     font-family: 'Open Sans Condensed', sans-serif;
     margin:0px;
-    color:hsl(284, 56%, 28%);
+    color:rgba(67, 187, 223, 0.7);
     font-size: 30px;
+    background-color: white;
 }
 .activitiesContent{
     width:90%;
     display:flex;
     justify-content: center;
-    color:hsl(284, 56%, 28%);
+    color:#13536a;
     /* margin:0;
     padding:0; */
 }
-}
 
-#map{
-    display: flex;
-    justify-content: center;
-    background-color:rgba(195, 183, 201, 0.1);
-    padding:50px;
-    
-}
-#contacter{
-    width:100%;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color:hsl(284, 56%, 28%);
-}
-.contactUsparagraph{
-    margin:0px;
-    /* padding:0px; */
-}
-#contacterTopLine{
-    padding-top:20px;
-    font-family: 'Poiret One', cursive;
-}
-#contacterBottomLine{
-    padding-bottom:50px;
+
 }
