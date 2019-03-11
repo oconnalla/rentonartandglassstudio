@@ -1,0 +1,88 @@
+
+
+body, html {
+  height: 100%;
+}
+
+/* Hiding images by default */
+ .slides {
+    display: none;
+    padding:30px;
+ }
+div > img:not(:last-child){
+  /* vertical-align: middle;
+  max-height: 500px; */
+  object-fit: cover;
+  object-position: 50% 30%;
+  /* width: 700px; */
+  max-height: 500px;
+  margin-bottom:0px;
+}
+ /* div > img:last-child{
+ width:100%;
+}  */
+
+/* Slideshow container */
+.slidesContainer {
+  max-width: 90%; 
+  position: relative;
+  margin: auto;
+  margin-top:5%;
+  padding-top:0px;
+  /* overflow:hidden; */
+  background-image: linear-gradient(260deg, black, #0b0321, hsl(283, 55%, 23%),hsl(263, 100%, 15%),black); 
+}
+
+
+/* Captioning text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+  background-image: linear-gradient(260deg,black, #0b0321, hsl(283, 55%, 23%),  #0b0321, black);
+}
+
+/* number order text (1/10) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots indicators */
+.dot {
+  /* cursor: pointer;  */
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: #bbb 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-duration: 3s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .2} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .2} 
+    to {opacity: 1}
+  }
+  
