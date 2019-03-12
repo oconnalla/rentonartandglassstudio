@@ -1,3 +1,10 @@
+ 
+ /* colors:
+ hsl(283, 55%, 23%), rgba(67, 187, 223, 0.7),rgba(216, 134, 243, 0.2), #0b0321  */
+ 
+ 
+ 
+ /* Generalized CSS */
  body{
     width: 100%; 
     /* background-image: linear-gradient(#020007, black, black, hsl(283, 55%, 23%));  */
@@ -7,6 +14,9 @@
     font-weight: lighter;
 }
 
+
+
+/* Nav Bar for Mobile */
 .header{
     background-image: linear-gradient(260deg, black, #0b0321, hsl(283, 55%, 23%),hsl(263, 100%, 15%), rgba(67, 187, 223, 0.7));  
     /* background-image: linear-gradient(to left, black,rgba(67, 187, 223, 0.7));
@@ -37,7 +47,7 @@
 
  
 
-/* Nav for desktop view */ 
+/* Navigation/Logo CSS For Desktop View */
 @media screen and (min-width: 768px) {
     .header {background-image: linear-gradient(260deg, black, 
         #0b0321, #0b0321, hsl(283, 55%, 23%));
@@ -101,7 +111,7 @@ input[type=search]{
     font-size: 13px;
 }
 
-
+/* Hero IMAGE CSS */
 .hero_image{
     padding-top:20px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../websiteRAGSImages/purpleOrb.jpg");
@@ -140,10 +150,10 @@ input[type=search]{
   /* #heroOrnament{
     width:30%;
 } */
-#sq1{
+/* #sq1{
     background-image:linear-gradient(260deg,rgba(224, 180, 238, 0.2),hsl(283, 55%, 23%),rgba(67, 187, 223, 0.7));
     /* background-image: linear-gradient(rgba(216, 134, 243, 0.2),rgba(28, 37, 85, 0.7));   */
-}
+/* }
 #sq2{
     background-image: url("../websiteRAGSImages/logoOptiontitle.png");
     transform: rotate(45deg);
@@ -170,11 +180,11 @@ input[type=search]{
     background-image: 
     url("../websiteRAGSImages/colorfulPurple1.jpg");
     
-}
-#wrapbottom :hover {
+} */ 
+/* #wrapbottom :hover {
     background-color: rgba(216, 96, 247, .8);
     color: rgba(255, 255, 255, 1);
-} 
+}  */
 
 /* #diamonds{
 width:100%;
@@ -210,6 +220,7 @@ width:100%;
 } */
 
 
+/* CSS for button in hero image and products page */
 button{
     background-color: rgba(64, 13, 82, 0.7); 
     border: none;
@@ -228,6 +239,7 @@ button{
     color: rgba(255, 255, 255, 1);
 }
 
+
 h2{
     font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -241,44 +253,6 @@ h2{
     /* background-color:rgba(155, 132, 167, 0.1);  */
     margin-top:30px;
     margin-bottom:30px;
-}
-.floatHome{
-    display:flex;
-    /* margin:20px; */
-    justify-content: space-around;
-    align-items: center;
-    background-color:#978bb6; 
-}
-.floatHome2{
-    display:flex;
-    /* margin:20px; */
-    justify-content: space-around;
-    align-items: center;
-    background-color:#0b0321;  
-}
-.floatHome3{
-    display:flex;
-    /* margin:20px; */
-    justify-content: space-around;
-    align-items: center; 
-}
-#johnsonQuote{
-    color:white;
-}
-#heilmanQuote{
-    color:#883cae;  
-}
-.homeVase{
-    border-radius: 15%;
-    max-width:400px;
-    max-height:300px;
-    padding:15px;
-}
-#homeVase2{
-    border-radius: 20%;
-    width:300px;
-    max-height:300px;
-    padding:15px;
 }
 .img_shape{
     border-radius: 50%;
@@ -328,6 +302,8 @@ h2{
     flex-wrap:wrap; 
 
 }  */
+
+/* CSS for Footer */
 footer{
    display: flex;
      /* background-image:linear-gradient(hsl(283, 55%, 23%), rgba(216, 134, 243, 0.2),rgba(67, 187, 223, 0.7));  */
@@ -366,14 +342,68 @@ footer{
     justify-content: center;
     color:hsl(284, 56%, 28%);
 }
-/* colors:hsl(283, 55%, 23%), rgba(67, 187, 223, 0.7),rgba(216, 134, 243, 0.2), #0b0321  */
+}
 
 
+
+
+
+/* CSS for main home page */
+@media screen and (min-width: 768px) {
+
+.floatHome{
+    display:flex;
+    /* margin:20px; */
+    justify-content: space-around;
+    align-items: center;
+    background-color:#978bb6; 
+}
+.floatHome2{
+    display:flex;
+    /* margin:20px; */
+    justify-content: space-around;
+    align-items: center;
+    background-color:#0b0321;
+    color: #978bb6; 
+}
+.floatHome2 h1{
+    color: #978bb6;
+    font-weight: lighter;  
+}
+
+.floatHome3{
+    display:flex;
+    /* margin:20px; */
+    justify-content: space-around;
+    align-items: center; 
+}
+#johnsonQuote{
+    color:white;
+}
+#heilmanQuote{
+    color:#883cae;  
+}
+.homeVase{
+    border-radius: 15%;
+    max-width:400px;
+    max-height:300px;
+    margin:15px;
+    border: solid 2px rgba(67, 187, 223, 0.2);
+}
+#homeVase2{
+    border-radius: 20%;
+    width:300px;
+    max-height:300px;
+    margin:15px;
+    border: solid 2px rgba(67, 187, 223, 0.4);
+}
+}
 
 
 
 
 /* Events Page specialized  CSS */
+@media screen and (min-width: 768px) {
 .secondaryTitleTag{
     padding-top:10px;
     margin-bottom:5px;
@@ -408,9 +438,6 @@ footer{
 #eventsActivities{
     display:inline-flex;
     align-items: flex-start;
-    /* flex-wrap:wrap; */
-    /* justify-content: center; */
-    /* align-content: space-around; */
 } 
 .eventsList{
     display:flex;
@@ -425,6 +452,9 @@ footer{
     color:white;
     margin:20px;
     border-right:2px solid rgba(67, 187, 223, 0.9);
+}
+#events2 p{
+    color:#978bb6; 
 }
 #events3{
     margin:20px;
@@ -480,8 +510,6 @@ footer{
 
 
 /* Contact Us Page Specialized CSS */
-
-/* Nav for desktop view */ 
 @media screen and (min-width: 768px) {
     #contactUsContainer{
     display: flex;
@@ -525,6 +553,7 @@ footer{
 
 
 
+
 /* Studio Rental Page Specialized CSS */
 @media screen and (min-width: 768px) {
 #studioRentalContainer{
@@ -533,15 +562,49 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 }
+#studioRentalAvailability{
+display: flex;
+max-width:80%;
+margin-bottom:2%;
+margin-top:2%;
+}
 #studioRentalBottomLinks{
-font-size:25px;
-padding:20px;
+font-size:30px;
+display:flex; 
+flex-direction: column;
+font-family: 'Poiret One', cursive; 
 }
 #theStudio{
 display:flex;
 justify-content: center; 
 max-width: 80%;
 padding:30px;
+margin-bottom:15%;
 background-image: linear-gradient(260deg, black, #0b0321, hsl(283, 55%, 23%),hsl(263, 100%, 15%), rgba(67, 187, 223, 0.7)); 
 }
+.studioImg{
+    border-radius: 22%;
+    max-width:250px;
+    max-height:250px;
+    margin-top:35px;
+    margin-bottom:35px;
+    border:1px solid rgba(67, 187, 223, 0.5); 
+    
+}
+
+#studioRentalArtistLink{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#0b0321;
+    color:whitesmoke;
+}
+#studioRentalClassLink{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#978bb6;
+    color:#0b0321; 
+}
+/* The extra bracket below is for the the end of the desktop media query */
 }
