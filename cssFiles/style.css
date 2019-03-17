@@ -6,9 +6,10 @@
  
  /* Generalized CSS */
  body{
-     display:flex;
+     margin auto;
+     /* display:flex;
      flex-direction: column;
-     justify-content: space-between;
+     justify-content: space-between; */
     width: 100%; 
     /* max-width:1400px; */
     /* background-image: linear-gradient(#020007, black, black, hsl(283, 55%, 23%));  */
