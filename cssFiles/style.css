@@ -7,7 +7,7 @@
  /* Generalized CSS */
  body{
     width: 100%; 
-    max-width:1400px;
+    /* max-width:1400px; */
     /* background-image: linear-gradient(#020007, black, black, hsl(283, 55%, 23%));  */
     background-color: white;  
     color: black;
