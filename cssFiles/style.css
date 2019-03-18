@@ -681,7 +681,8 @@ footer{
 @media screen and (min-width: 768px) {
     #artistsContainer{
         margin:2%;
-        background-color:rgba(223, 247, 246, .2);
+        background-color:rgba(153, 67, 223, 0.05);
+        border:double 4px rgba(153, 67, 223, 0.1);
         /* background-image:url("../websiteRAGSImages/glasseggs.jpg");
         background-repeat:no-repeat; */
     }
@@ -771,7 +772,7 @@ footer{
         display:flex;
         flex-direction: column;
         align-items: center;
-        background-image:linear-gradient(hsl(285, 90%, 31%),hsl(285, 90%, 36%),hsl(285, 93%, 36%));
+        background-image:linear-gradient(hsl(285, 92%, 21%),hsl(285, 95%, 25%),hsl(285, 97%, 27%));
         width:50%;
         margin:4%;
         color:#beb2dd;
