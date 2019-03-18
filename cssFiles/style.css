@@ -6,10 +6,7 @@
  
  /* Generalized CSS */
  body{
-     margin auto;
-     /* display:flex;
-     flex-direction: column;
-     justify-content: space-between; */
+    margin: auto;
     width: 100%; 
     /* max-width:1400px; */
     /* background-image: linear-gradient(#020007, black, black, hsl(283, 55%, 23%));  */
@@ -682,6 +679,12 @@ footer{
 
 /* Artists Page Specialized CSS */
 @media screen and (min-width: 768px) {
+    #artistsContainer{
+        margin:2%;
+        background-color:rgba(223, 247, 246, .2);
+        /* background-image:url("../websiteRAGSImages/glasseggs.jpg");
+        background-repeat:no-repeat; */
+    }
     #callToSchedTopArtists{
         margin-top:25px; 
         font-size: 30px;
@@ -689,6 +692,125 @@ footer{
     #callToSchedBottomArtists{
         color:white;
         font-size: 20px;
+    }
+    #joanArtist, h1{
+        color:whitesmoke;
+    }
+    .artistsHeader{
+        width:100%;
+        display: inline-flex;
+        justify-content: center;
+        font-size: 40px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        margin-top:35px;
+        margin-bottom:20px;
+        color:hsl(284, 56%, 28%);
+        /* border-top: 30px solid  hsl(268, 56%, 28%);  */
+    }
+    /* #artistsActivities{
+        display:inline-flex;
+        align-items: flex-start;
+        /* flex-wrap: wrap;
+     } */
+     
+    .artistsDivision{
+        display: flex;
+        flex-direction: column;
+         color:whitesmoke;
+    }
+    #artistsDivisionTop{
+        display:flex;
+        flex-direction: row;
+    }
+    #artistsDivisionBottom{
+        display:flex;
+        flex-direction: row;
+        width:100%;
+    }
+    #guestArtistDivision{
+        display:flex;
+        justify-content: center;
+        margin-bottom:5%;
+    }
+
+    .artistsList{
+        display:flex;
+        align-items: flex-start;
+        margin-top:0;
+        text-decoration: none;
+        color:rgba(67, 187, 223, 0.7);
+        font-size: 25px;
+        font-weight: normal;
+    }
+    #joanArtist{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        background-image:linear-gradient(#978bb6,#a498c2,#b0a2d3);
+        width:50%;
+        margin:4%;
+        padding-bottom:5%; 
+        color:whitesmoke;   
+    }
+    #joanTitle{
+        color:whitesmoke;  
+    }
+    #bobArtist{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        background-image:linear-gradient(#120321, #1d032d, #350850);
+        color:#a599c4;
+        width:50%;
+        margin:4%;
+    }
+    #bobTitle{
+        color:rgb(206, 185, 213);
+    }
+    #bradArtist{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        background-image:linear-gradient(hsl(285, 90%, 31%),hsl(285, 90%, 36%),hsl(285, 93%, 36%));
+        width:50%;
+        margin:4%;
+        color:#beb2dd;
+    }
+    #bradTitle{
+     color:#c7bbe6;   
+    }
+    #brianArtist{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        background-image:linear-gradient(#a68bb6, #b99ec9, #d6b8e8);
+        width:50%;
+        margin:4%;
+        padding-bottom:5%;
+        color:rgb(46, 28, 46);
+    }
+    #guestArtist{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-image:linear-gradient(hsl(284, 56%, 28%),hsl(284, 62%, 35%),rgb(114, 42, 140));
+        width:45%;
+        margin:4%;
+        padding-bottom:5%;
+    }
+    #guestTitle{
+    color:#bcb0da;
+    }
+    #guestArtist, h2{
+    color:#bcb0da;
+    } 
+    .artistsContent{
+    width:85%;
+    display:flex;
+    justify-content: center;
+    margin-top:5%;
     }
 
 
@@ -713,6 +835,20 @@ footer{
     object-position: 50% 30%;
     max-height: 500px;
     width:33.33%;
+    }
+    #contactTag{
+        margin-bottom:20px;
+        color:rgba(67, 187, 223, 0.8);
+        font-family: 'Poiret One', cursive;
+        font-size: 25px;
+    }
+    .contactUsSent{
+        display:flex;
+        justify-content: center;
+        color:rgba(67, 187, 223, 0.8);
+        margin-top:0px;
+        padding-top:0px;
+        font-size: 20px;
     }
     #contactImgs{
     display:flex;
@@ -747,6 +883,7 @@ footer{
     background-image: linear-gradient(260deg, #0b0321, hsl(283, 55%, 23%),hsl(263, 100%, 15%), rgba(67, 187, 223, 0.7));  
     padding:20px;
     max-width: 60%;
+    margin-bottom:50px;
     
 }
 #contacter{
