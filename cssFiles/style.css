@@ -347,6 +347,44 @@ h2{
     flex-wrap:wrap; 
 
 }  */
+#productsContainer{
+    display:flex;
+    flex-direction: column;
+    width:98%;
+    margin:auto;
+    align-content: center;
+    justify-content: center;
+    align-items:center;
+    border:10px double rgba(153, 67, 223, 0.1);
+}
+.productsImg{
+    border-radius: 50%;
+    width:20%; 
+    height:20%;
+    border:10px double rgba(153, 67, 223, 0.1); 
+    margin:2%;
+}
+.productImgContainer{
+    display:flex;
+    justify-content: center;   
+}
+#titleProducts{
+font-size: 50px;
+margin-top:150px;
+padding:2%;
+color:hsl(283, 55%, 23%);
+border:10px double rgba(153, 67, 223, 0.1); 
+}
+#productsBottomButtom{
+margin-bottom:5%;
+}
+#browseProducts{
+    font-size: 35px;
+    color:#240537;
+}
+
+
+
 
 /* CSS for Footer */
 footer{
@@ -672,6 +710,12 @@ footer{
     #events3Paragraph{
         color:rgb(223, 223, 223);
     }
+    #cardPTag{
+        color:#978bb6;
+
+    }
+    
+    
 /* The extra bracket below is for the the end of the desktop media query */
 }
 
